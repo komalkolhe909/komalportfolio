@@ -1,0 +1,479 @@
+html {
+  scroll-behavior: smooth;
+
+}
+
+
+.navlog {
+  padding-left: 20%;
+}
+.navbar ul li{
+
+    color: #999999;
+    font-family: 'Poppins', helvetica;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    text-transform: capitalize
+}
+.navsha {
+  box-shadow: 20px 20px 20px #efede5;
+}
+.navbarfull{
+  position: fixed;
+    background: #fff;
+    z-index: 1000;
+    width: 100%;
+}
+
+.banner {
+  background: url("../images/home-bg.jpg") no-repeat fixed;
+  background-position: left 80px;
+  width: 100%;
+  height: 750px;
+}
+
+.navitem-space{
+
+  margin-left: 0%;
+    margin-right: 25%;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+
+.about-section{
+  background-color:#f7f7f7!important;
+}
+
+
+
+.imgview {
+  padding-top: 10%;
+  padding-left: 8%;
+}
+
+
+
+.About {
+  padding-top: 26%;
+  margin-left: 20%;
+}
+
+div.relative {
+  width: 358px;
+  height: 454px;
+  border: 24px solid #b8a07e;;
+}
+
+div.absolute {
+  margin-top: -80px;
+margin-left: 40px;
+}
+.section-title{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+ .ME{
+  font-weight: bold;
+
+}
+.textsize{
+  font-size: 15px;
+}
+.describ{
+  font-size: 20px;
+}
+.skill{
+  font-size: 20px;
+}
+.view{
+  margin: 40px auto;
+}
+.view:hover{
+  transition-duration: 0.4s;
+  background-color: #008CBA;
+  color: white;
+
+}
+.liveproject-container{
+  background-color:#f7f7f7!important;
+}
+.imgbor{
+  border: 1px solid black;
+}
+.view1{
+    margin-left:100px;
+}
+.view1:hover{
+  transition-duration: 0.4s;
+  background-color: #008CBA;
+  color: white;
+
+}
+.view2{
+    margin-left:100px;
+}
+.view2:hover{
+  transition-duration: 0.4s;
+  background-color: #99cc33;
+  color: white;
+
+}
+.view3{
+    margin-left:100px;
+}
+.view3:hover{
+  transition-duration: 0.4s;
+  background-color: #ff6b95;
+  color: white;
+
+}
+.journal-txt
+{
+  padding-top: 10px;
+    padding-left: 80px;
+}
+.logo-border{
+  border: 1px solid black;
+}
+.txt{
+  color: #292929;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 20px;
+}
+.grf{
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* .hovereffect {
+  position: relative;
+  width: 100%;
+  /* max-width: 300px; */
+} */
+
+.graphic-image {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+/* */
+ /* .hovereffect:hover .overlay {
+    /* background: rgba(76, 175, 80, 0.1); */
+   /* opacity: 1;
+ } */
+
+ /* .hovereffect a.info{
+   display: inline-block;
+
+     color: #fff;
+     border: 2px solid #fff;
+
+     padding: 3px 25px;
+     color: #fff;
+     margin-left: 35%;
+    margin-top: 40%;
+} */ */
+
+/* below css is for hovereffect */
+
+
+/*end*/
+
+/* .hovereffect a.all{
+  display: inline-block;
+
+    color: #fff;
+    border: 2px solid #fff;
+
+    padding: 3px 25px;
+    color: #fff;
+    margin-left: 36%;
+   margin-top: 25%;
+
+} */
+
+.info{
+  font-size: 22px;
+
+  color: black;
+   border: 3px solid white;
+   padding: 3px 21px;
+
+
+}
+/* .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  overflow: hidden;
+
+   background:rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .7s ease;
+} */
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+/* .hovereffect:hover .overlay {
+  transform: scale(1);
+} */
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+/* .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+} */
+/*
+
+.hovereffect {
+    position: relative;
+    border: 1px solid #333;
+    margin: 2%;
+    overflow: hidden;
+    width: auto;
+    display: inline-block;
+}
+.hovereffect img {
+    max-width: 100%;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    transition: .5s ease;
+}
+.hovereffect:hover img {
+    -webkit-transform: scale(1.20,1.20);
+    -moz-transform: scale(1.20,1.20);
+    transform: scale(1.20,1.20);
+}
+.hovereffect:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: #000;
+    background: rgba(0,0,0,0.3);
+    z-index: 2;
+    opacity: 0;
+    -moz-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+.hovereffect:hover:before {
+    opacity: 1;
+} */
+.footer{
+  margin-top: 40px;
+  background-color:#000000;
+}
+.fotimg{
+  margin-top: 25px;
+  margin-left: 30%;
+  margin-bottom: 20px;
+}
+.con{
+  margin-left: 35%;
+  margin-top: 25px;
+  color: white;
+}
+.icon{
+  margin-left: 25%;
+  margin-top: 25px;
+  color: white;
+}
+.footext{
+  font-size: 16px;
+  color: white;
+
+}
+.mob{
+  color: white;
+  padding-top: 8px;
+  margin-left: 25%;
+}
+.mai{
+  color: white;
+  padding-top: 8px;
+  margin-left: 25%;
+
+}
+.foll{
+  color: white;
+  margin-top: 25px;
+  margin-left: 25%;
+
+}
+.face{
+  margin-left: 20%;
+  padding-top: 25px;
+  display: block;
+}
+.inst{
+  margin-left:
+}
+.active1{
+  color: red!important;
+}
+
+.header-content {
+  height: 40rem;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #1bbf5d;
+}
+
+.header-content p {
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  color: black;
+  font-weight: 500;
+}
+/*below code is right for overlayeffect*/
+/* .hovereffect {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  /* color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+} */
+
+/* .container:hover .overlay {
+  opacity: 1;
+} */
+
+.hovereffect {
+  position: relative;
+  width: 100%;
+}
+
+.graphic-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  /* transition: .5s ease; */
+  backface-visibility: hidden;
+  transition: 0.5s all ease-in-out;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hovereffect:hover .graphic-image {
+  opacity: 0.3;
+   transform: scale(1.1);
+}
+
+.hovereffect:hover .middle {
+  opacity: 1;
+  background-color:
+}
+
+.imgtext {
+  background-color: #2b2642;
+  color: white;
+  font-size: 21px;
+  padding: 10px 32px;
+  border: 1px solid white;
+}
+
+
+.mobileapp-img {
+  margin-top:80px;
+  margin-bottom:20px;
+  margin-left:3cm;
+  width: -webkit-fill-available;
+
+}
+.graphicwork-img{
+  margin-top: 80px;
+    margin-bottom: 20px;
+    width: -webkit-fill-available;
+    margin-left: 14%;
+}
+.googleads-img{
+  margin-top: 80px;
+    margin-left: 4cm;
+    width: -webkit-fill-available;
+}
+
+@media only screen and (max-width: 600px) {
+  .navmodify {
+    padding-left: 40%;
+  }
+}
+.emailer-img{
+  padding-top: 80px;
+    margin-left: 10%;
+
+}
+.bannerport-img{
+  width: -webkit-fill-available;
+    padding-top: 80px;
+
+}
+.otherwork-img{
+  padding-top: 80px;
+    margin-left: 10%;
+    width: -webkit-fill-available;
+}
+
+.active {
+  color: red!important;
+}
